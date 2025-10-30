@@ -1,0 +1,14 @@
+{
+  "name": "acme-branded-templates",
+  "version": "1.0.0",
+  "description": "Insert company-branded templates in Word, Excel, and PowerPoint",
+  "scripts": {
+    "start": "office-addin-debugging start manifest.xml",
+    "stop": "office-addin-debugging stop manifest.xml",
+    "validate": "office-addin-manifest validate manifest.xml"
+  },
+  "dependencies": {
+    "office-addin-debugging": "^5.0.0",
+    "office-addin-manifest": "^5.0.0"
+  }
+}

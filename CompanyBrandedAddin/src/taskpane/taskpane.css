@@ -1,0 +1,39 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+  background-color: #fafafa;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #004B8D;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0066CC;
+}
+
+#status {
+  margin-top: 12px;
+  color: #0078D7;
+  font-size: 13px;
+}
